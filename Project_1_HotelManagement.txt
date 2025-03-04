@@ -2,23 +2,9 @@ Write a python program to assist a hotel manager in offering rooms to customers 
 Hint: Consider the following to develop the python code:
 1.	Room: This class will represent individual rooms with their properties (e.g., room type, price, amenities, etc.).
 2.	Hotel: This class will represent the hotel, which contains a list of available rooms.
-3.	Customer: This class will represent a customer and contain their preferences for room selection.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+3.	Customer: This class will represent a customer and contain their preferences for room selection. 
+ 
+solution:
 
 Python Code for the Room Offering System:
 class Room:
@@ -65,10 +51,6 @@ class Customer:
             print(f"\nHere are the rooms that match your preferences (Price <= ${self.budget}, Preferred Room Type: {self.preferred_room_type}, Amenities: {', '.join(self.required_amenities)}):")
             for room in filtered_rooms:
                 print(room)
-
-
-
-
 
 # Example usage:
 # Create a hotel
